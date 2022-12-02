@@ -1,0 +1,29 @@
+Results for the extraLargeArray
+insert 716.0896 ms
+append 4.1375 ms
+
+Results for the largeArray
+insert 7.7966 ms
+append 399.4 μs
+
+Results for the mediumArray
+insert 125 μs
+append 100.4 μs
+
+Results for the smallArray
+insert 36.9 μs
+append 84.2 μs
+
+Results for the tinyArray
+insert 27.6 μs
+append 67.5 μs
+
+
+Paragraph that I need to write:
+
+As I look over the result of running all arrau sizes, I see that the .unshift() method increases exponectially
+when increasing the size of the array. However, for the tinyArray and the smallArray the .unshift() method was faster.
+ The .push method scales better as it is a linear or O(n) run time. the .unshift() method has a O(n^2) run time.
+ Reasoning:
+ When using the unshift method depending on the size of the array it will need to make more room in your memory.
+ When it gets to that point it has to copy the old information then adds it to the new space it created.
