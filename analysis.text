@@ -21,9 +21,8 @@ append 67.5 μs
 
 Paragraph that I need to write:
 
-As I look over the result of running all arrau sizes, I see that the .unshift() method increases exponectially
-when increasing the size of the array. However, for the tinyArray and the smallArray the .unshift() method was faster.
- The .push method scales better as it is a linear or O(n) run time. the .unshift() method has a O(n^2) run time.
- Reasoning:
- When using the unshift method depending on the size of the array it will need to make more room in your memory.
- When it gets to that point it has to copy the old information then adds it to the new space it created.
+After running all of the arrays to see their run times, I noticed that the .push method was slower for the tiny and the small arrays.
+For the medium, larger and extraLargeArray the insert or .unshift method was slower. The append method scales better,
+because when adding more data it will run faster. The unshift method is slower because of the way it saves its data.
+If it needs more space, it will copy what is has and then add it to the new space it created. 
+
