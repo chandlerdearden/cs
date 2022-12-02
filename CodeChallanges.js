@@ -12,7 +12,7 @@ return false
 }
 
 console.log(addToZero([28, 43, -12, 30, 4, 0, 12]))
-// Run time of O(n^2) //
+// Time Complexity of O(n^2) //
 
 function hasUniqueChars(word) {
   let uniqueChars = new Set([])
@@ -23,7 +23,7 @@ function hasUniqueChars(word) {
 }
 console.log(hasUniqueChars("Moonday"))
 
-// Run time of O(n) //
+// Time Complexity of O(n) //
 
 function isPangram(str) {
   let value = str.toLowerCase().replace(/[^a-z]/g, "");  
@@ -32,7 +32,7 @@ function isPangram(str) {
 
 console.log(isPangram("The quick brown fox jumps over the lazy dog"))
 
-// Run time of O(n) //
+// Time Complexity of O(n) //
 
 function findLongestWord (arr) {
   let longestWord = ""
@@ -47,4 +47,4 @@ function findLongestWord (arr) {
 
 console.log(findLongestWord(["hi","longerword", "hello"]))
 
-// Run Time of O(n)
+// Time Complexity of O(n)
