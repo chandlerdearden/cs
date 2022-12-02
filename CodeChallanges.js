@@ -22,7 +22,7 @@ function hasUniqueChars(word) {
 }
 console.log(hasUniqueChars("Moonday"))
 
-// Run time of O(1) //
+// Run time of O(n) //
 
 function isPangram(str) {
   let value = str.toLowerCase().replace(/[^a-z]/g, "");  
@@ -31,7 +31,7 @@ function isPangram(str) {
 
 console.log(isPangram("The quick brown fox jumps over the lazy dog"))
 
-// Run time of O(1) //
+// Run time of O(n) //
 
 function findLongestWord (arr) {
   let longestWord = ""
@@ -46,4 +46,4 @@ function findLongestWord (arr) {
 
 console.log(findLongestWord(["hi","longerword", "hello"]))
 
-// Run Time of O(1)
+// Run Time of O(n)
